@@ -16,7 +16,7 @@ docker build -t nodedashboard .
 ### Docker Run
 
 ```bash
-docker run -p 8080:80 -e TARGET=http://127.0.0.1:2020 nodedashboard
+docker run -it --rm -p 8080:80 -e TARGET=http://127.0.0.1:2020 nodedashboard
 ```
 TARGET = The fullnode's RPC interface
 
