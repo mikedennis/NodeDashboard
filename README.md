@@ -16,10 +16,10 @@ docker build -t nodedashboard .
 ### Docker Run
 
 ```bash
-docker run -it --rm -p 8080:80 -e TARGET=http://127.0.0.1:2020 nodedashboard
+docker run -it --rm -p 8080:80 -e TARGET=http://127.0.0.1:2020/nodedashboard
 ```
 TARGET = The fullnode's RPC interface
 
 ## Browse
 - /proxy will be the CORS proxy to the RPC node
-- /dashboard will be the full node dashboard UI PWA
+- / will be the full node dashboard UI PWA
