@@ -22,4 +22,4 @@ TARGET = The fullnode's RPC interface
 
 ## Browse
 - / will be the CORS proxy to the RPC node
-- /dashboard will be the full node dashboard UI PWA
+- /dashboard/ will be the full node dashboard UI PWA
