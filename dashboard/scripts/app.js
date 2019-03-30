@@ -227,9 +227,10 @@
       app.toggleAddDialog(true);
     }
 
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker
-               .register('./service-worker.js')
-               .then(function() { console.log('Service Worker Registered'); });
-    }
+    // add this code in to make PWA
+    // if ('serviceWorker' in navigator) {
+    //   navigator.serviceWorker
+    //            .register('./service-worker.js')
+    //            .then(function() { console.log('Service Worker Registered'); });
+    // }
 })();
