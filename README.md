@@ -1,5 +1,6 @@
 # FullNode RPC Dashboard
 PWA for a Full Node based dashboard using RPC
+
 ![Configure](docs/Configure.PNG)
 
 ![Dashboard](docs/NodeDashboard.PNG)
