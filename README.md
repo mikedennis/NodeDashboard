@@ -1,6 +1,8 @@
 # FullNode RPC Dashboard
 PWA for a Full Node based dashboard using RPC
 
+![Screen Capture](NodeDashboard.png)
+
 Currently supports both Bitcoin and Stratis compatible RPC nodes. This should also include most Bitcoin or Stratis forks (which is a large amount of the coins out there). If the coin is compatible choose which RPC interface it is compatible with and given it a name that you can identify it and it should work.
 
 A current release of the PWA is hosted here https://mikedennis/github.io
